@@ -17,8 +17,7 @@ jobs:
       - name: Run Feed generator
         run: python feed.py
       - name: Push Repo
-        run:
-        
+        run: 
           git add .
           git commit -m "Modified Feed"
           git push
